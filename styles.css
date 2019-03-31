@@ -1,0 +1,47 @@
+  h1
+    {
+      color: #70a6ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  p
+    {
+      color: green;
+      font-family: Arial, sans-serif;
+    }
+  table
+    {
+      margin-left: 30px;
+      border: 2px solid black;
+      border-collapse: collapse;
+      width: 50%;
+    }
+  th,td
+    {
+      border: 1px solid black;
+      padding: 5px;
+      text-align:center
+    }
+  th
+    {
+      background-color: grey;
+    }
+  #bottom
+    {
+      border: 5px dotted #70a6ff;
+      background-color:teal;
+      font-family: Arial, sans-serif;
+      font-size:14px;
+      font-weight: bold;
+      width: 280px;
+      height: 100px;
+      margin: 30px;
+      padding-bottom: : 1px;
+      padding-top: 1px;
+      padding-left: 20px;
+    }
+    .urg
+    {
+      font-weight:bold;
+      color:red;
+    }
