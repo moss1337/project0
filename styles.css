@@ -4,6 +4,11 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
+  @media print{
+    .screen-only{
+      display:none;
+    }
+  }
   p
     {
       color: green;
@@ -25,6 +30,12 @@
   th
     {
       background-color: grey;
+    }
+    input[type=text]{
+      background-color:pink;
+    }
+    button:hover{
+      background-color:yellow;
     }
   #bottom
     {
